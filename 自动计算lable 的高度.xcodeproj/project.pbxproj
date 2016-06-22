@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14D1444B1CBFA80A00704AAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D1444A1CBFA80A00704AAB /* main.m */; };
+		14D1444E1CBFA80A00704AAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D1444D1CBFA80A00704AAB /* AppDelegate.m */; };
+		14D144511CBFA80A00704AAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D144501CBFA80A00704AAB /* ViewController.m */; };
+		14D144541CBFA80A00704AAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D144521CBFA80A00704AAB /* Main.storyboard */; };
+		14D144561CBFA80A00704AAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D144551CBFA80A00704AAB /* Assets.xcassets */; };
+		14D144591CBFA80A00704AAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D144571CBFA80A00704AAB /* LaunchScreen.storyboard */; };
+		14D144641CBFA80A00704AAB /* ____lable____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D144631CBFA80A00704AAB /* ____lable____Tests.m */; };
+		14D1446F1CBFA80A00704AAB /* ____lable____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D1446E1CBFA80A00704AAB /* ____lable____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14D144601CBFA80A00704AAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14D1443E1CBFA80900704AAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14D144451CBFA80A00704AAB;
+			remoteInfo = "自动计算lable 的高度";
+		};
+		14D1446B1CBFA80A00704AAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14D1443E1CBFA80900704AAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14D144451CBFA80A00704AAB;
+			remoteInfo = "自动计算lable 的高度";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14D144461CBFA80A00704AAB /* 自动计算lable 的高度.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自动计算lable 的高度.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14D1444A1CBFA80A00704AAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14D1444C1CBFA80A00704AAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14D1444D1CBFA80A00704AAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14D1444F1CBFA80A00704AAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14D144501CBFA80A00704AAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14D144531CBFA80A00704AAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14D144551CBFA80A00704AAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14D144581CBFA80A00704AAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14D1445A1CBFA80A00704AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14D1445F1CBFA80A00704AAB /* 自动计算lable 的高度Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自动计算lable 的高度Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14D144631CBFA80A00704AAB /* ____lable____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____lable____Tests.m"; sourceTree = "<group>"; };
+		14D144651CBFA80A00704AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14D1446A1CBFA80A00704AAB /* 自动计算lable 的高度UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自动计算lable 的高度UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14D1446E1CBFA80A00704AAB /* ____lable____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____lable____UITests.m"; sourceTree = "<group>"; };
+		14D144701CBFA80A00704AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14D144431CBFA80A00704AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14D1445C1CBFA80A00704AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14D144671CBFA80A00704AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14D1443D1CBFA80900704AAB = {
+			isa = PBXGroup;
+			children = (
+				14D144481CBFA80A00704AAB /* 自动计算lable 的高度 */,
+				14D144621CBFA80A00704AAB /* 自动计算lable 的高度Tests */,
+				14D1446D1CBFA80A00704AAB /* 自动计算lable 的高度UITests */,
+				14D144471CBFA80A00704AAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14D144471CBFA80A00704AAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14D144461CBFA80A00704AAB /* 自动计算lable 的高度.app */,
+				14D1445F1CBFA80A00704AAB /* 自动计算lable 的高度Tests.xctest */,
+				14D1446A1CBFA80A00704AAB /* 自动计算lable 的高度UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14D144481CBFA80A00704AAB /* 自动计算lable 的高度 */ = {
+			isa = PBXGroup;
+			children = (
+				14D1444C1CBFA80A00704AAB /* AppDelegate.h */,
+				14D1444D1CBFA80A00704AAB /* AppDelegate.m */,
+				14D1444F1CBFA80A00704AAB /* ViewController.h */,
+				14D144501CBFA80A00704AAB /* ViewController.m */,
+				14D144521CBFA80A00704AAB /* Main.storyboard */,
+				14D144551CBFA80A00704AAB /* Assets.xcassets */,
+				14D144571CBFA80A00704AAB /* LaunchScreen.storyboard */,
+				14D1445A1CBFA80A00704AAB /* Info.plist */,
+				14D144491CBFA80A00704AAB /* Supporting Files */,
+			);
+			path = "自动计算lable 的高度";
+			sourceTree = "<group>";
+		};
+		14D144491CBFA80A00704AAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14D1444A1CBFA80A00704AAB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14D144621CBFA80A00704AAB /* 自动计算lable 的高度Tests */ = {
+			isa = PBXGroup;
+			children = (
+				14D144631CBFA80A00704AAB /* ____lable____Tests.m */,
+				14D144651CBFA80A00704AAB /* Info.plist */,
+			);
+			path = "自动计算lable 的高度Tests";
+			sourceTree = "<group>";
+		};
+		14D1446D1CBFA80A00704AAB /* 自动计算lable 的高度UITests */ = {
+			isa = PBXGroup;
+			children = (
+				14D1446E1CBFA80A00704AAB /* ____lable____UITests.m */,
+				14D144701CBFA80A00704AAB /* Info.plist */,
+			);
+			path = "自动计算lable 的高度UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14D144451CBFA80A00704AAB /* 自动计算lable 的高度 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14D144731CBFA80A00704AAB /* Build configuration list for PBXNativeTarget "自动计算lable 的高度" */;
+			buildPhases = (
+				14D144421CBFA80A00704AAB /* Sources */,
+				14D144431CBFA80A00704AAB /* Frameworks */,
+				14D144441CBFA80A00704AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自动计算lable 的高度";
+			productName = "自动计算lable 的高度";
+			productReference = 14D144461CBFA80A00704AAB /* 自动计算lable 的高度.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14D1445E1CBFA80A00704AAB /* 自动计算lable 的高度Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14D144761CBFA80A00704AAB /* Build configuration list for PBXNativeTarget "自动计算lable 的高度Tests" */;
+			buildPhases = (
+				14D1445B1CBFA80A00704AAB /* Sources */,
+				14D1445C1CBFA80A00704AAB /* Frameworks */,
+				14D1445D1CBFA80A00704AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14D144611CBFA80A00704AAB /* PBXTargetDependency */,
+			);
+			name = "自动计算lable 的高度Tests";
+			productName = "自动计算lable 的高度Tests";
+			productReference = 14D1445F1CBFA80A00704AAB /* 自动计算lable 的高度Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14D144691CBFA80A00704AAB /* 自动计算lable 的高度UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14D144791CBFA80A00704AAB /* Build configuration list for PBXNativeTarget "自动计算lable 的高度UITests" */;
+			buildPhases = (
+				14D144661CBFA80A00704AAB /* Sources */,
+				14D144671CBFA80A00704AAB /* Frameworks */,
+				14D144681CBFA80A00704AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14D1446C1CBFA80A00704AAB /* PBXTargetDependency */,
+			);
+			name = "自动计算lable 的高度UITests";
+			productName = "自动计算lable 的高度UITests";
+			productReference = 14D1446A1CBFA80A00704AAB /* 自动计算lable 的高度UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14D1443E1CBFA80900704AAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = webuddy;
+				TargetAttributes = {
+					14D144451CBFA80A00704AAB = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = CHG654D4MN;
+					};
+					14D1445E1CBFA80A00704AAB = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = CHG654D4MN;
+						TestTargetID = 14D144451CBFA80A00704AAB;
+					};
+					14D144691CBFA80A00704AAB = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = CHG654D4MN;
+						TestTargetID = 14D144451CBFA80A00704AAB;
+					};
+				};
+			};
+			buildConfigurationList = 14D144411CBFA80900704AAB /* Build configuration list for PBXProject "自动计算lable 的高度" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14D1443D1CBFA80900704AAB;
+			productRefGroup = 14D144471CBFA80A00704AAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14D144451CBFA80A00704AAB /* 自动计算lable 的高度 */,
+				14D1445E1CBFA80A00704AAB /* 自动计算lable 的高度Tests */,
+				14D144691CBFA80A00704AAB /* 自动计算lable 的高度UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14D144441CBFA80A00704AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14D144591CBFA80A00704AAB /* LaunchScreen.storyboard in Resources */,
+				14D144561CBFA80A00704AAB /* Assets.xcassets in Resources */,
+				14D144541CBFA80A00704AAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14D1445D1CBFA80A00704AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14D144681CBFA80A00704AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14D144421CBFA80A00704AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14D144511CBFA80A00704AAB /* ViewController.m in Sources */,
+				14D1444E1CBFA80A00704AAB /* AppDelegate.m in Sources */,
+				14D1444B1CBFA80A00704AAB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14D1445B1CBFA80A00704AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14D144641CBFA80A00704AAB /* ____lable____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14D144661CBFA80A00704AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14D1446F1CBFA80A00704AAB /* ____lable____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14D144611CBFA80A00704AAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14D144451CBFA80A00704AAB /* 自动计算lable 的高度 */;
+			targetProxy = 14D144601CBFA80A00704AAB /* PBXContainerItemProxy */;
+		};
+		14D1446C1CBFA80A00704AAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14D144451CBFA80A00704AAB /* 自动计算lable 的高度 */;
+			targetProxy = 14D1446B1CBFA80A00704AAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14D144521CBFA80A00704AAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14D144531CBFA80A00704AAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14D144571CBFA80A00704AAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14D144581CBFA80A00704AAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14D144711CBFA80A00704AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14D144721CBFA80A00704AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14D144741CBFA80A00704AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自动计算lable 的高度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webuddy.----lable----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14D144751CBFA80A00704AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自动计算lable 的高度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webuddy.----lable----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		14D144771CBFA80A00704AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "自动计算lable 的高度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webuddy.----lable----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自动计算lable 的高度.app/自动计算lable 的高度";
+			};
+			name = Debug;
+		};
+		14D144781CBFA80A00704AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "自动计算lable 的高度Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webuddy.----lable----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自动计算lable 的高度.app/自动计算lable 的高度";
+			};
+			name = Release;
+		};
+		14D1447A1CBFA80A00704AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "自动计算lable 的高度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webuddy.----lable----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自动计算lable 的高度";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		14D1447B1CBFA80A00704AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "自动计算lable 的高度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webuddy.----lable----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自动计算lable 的高度";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14D144411CBFA80900704AAB /* Build configuration list for PBXProject "自动计算lable 的高度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14D144711CBFA80A00704AAB /* Debug */,
+				14D144721CBFA80A00704AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14D144731CBFA80A00704AAB /* Build configuration list for PBXNativeTarget "自动计算lable 的高度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14D144741CBFA80A00704AAB /* Debug */,
+				14D144751CBFA80A00704AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14D144761CBFA80A00704AAB /* Build configuration list for PBXNativeTarget "自动计算lable 的高度Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14D144771CBFA80A00704AAB /* Debug */,
+				14D144781CBFA80A00704AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14D144791CBFA80A00704AAB /* Build configuration list for PBXNativeTarget "自动计算lable 的高度UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14D1447A1CBFA80A00704AAB /* Debug */,
+				14D1447B1CBFA80A00704AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14D1443E1CBFA80900704AAB /* Project object */;
+}
